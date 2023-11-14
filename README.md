@@ -1,2 +1,5 @@
-# Student-Management_API-Testing-Project
-In this repository there are API test automation using Postman &amp; Newman for Student Management web-service. This testing to ensure the APIs are working functioning as expected. 
+# API_Testing-Project
+<br>
+
+## API Testing for Student-Management with Postman
+This project is on API testing with Postman for the Student Management web-service. It's evaluating the APIs are working functionality and usability as expected. 
