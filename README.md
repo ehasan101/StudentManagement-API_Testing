@@ -24,5 +24,15 @@ Install newman `npm install -g newman`
 6. Now run follwing command for report \
 `newman run Student_Management.postman_collection.json -e Std_Manage.postman_environment.json -r cli,htmlextra`
 
-
+## HTTP Status Codes
+HTTP status code are 3 digit number which a server response to a browser’s request.
+Those are divided into 5 categories. \
+```
+1xx - Informational Purpose
+2xx - Successful
+3xx - Redirection
+4xx - Client Error
+5xx - Server Error
+```
+![http_status_code](https://drive.google.com/uc?export=view&id=1iwy6FJw2krnOtpOmMhhHocFpXgfguTBM)
 
