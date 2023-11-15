@@ -47,9 +47,9 @@ Those are divided into 5 categories. \
   - Get Student Technical Skills
   - Get Specific Student Technical Skills
 * Technical Skill
-- Add Technical skills
-- Update Technical Skills
-- Delete Technical Skills
+   - Add Technical skills
+   - Update Technical Skills
+   - Delete Technical Skills
 * Delete Student \
 _[Positive and Negative case both are created]_
 
