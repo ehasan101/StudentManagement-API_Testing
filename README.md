@@ -36,3 +36,50 @@ Those are divided into 5 categories. \
 ```
 ![http_status_code](https://drive.google.com/uc?export=view&id=1iwy6FJw2krnOtpOmMhhHocFpXgfguTBM)
 
+
+## What I have done & Testcase Scenarios in this Testing!
+* Operation
+  - Create Student
+  - Update Student
+* Student Details
+  - Students Details
+  - Get Specific Student
+  - Get Student Technical Skills
+  - Get Specific Student Technical Skills
+* Technical Skill
+- Add Technical skills
+- Update Technical Skills
+- Delete Technical Skills
+* Delete Student \
+_Positive and Negative case both are created_
+
+
+<!-- 
+## Test Cases for this Testing:
+`incomplete` 
+-->
+
+## Test Report with Newman :
+A Newman report has been generated for the API test
+1. HTML [Report Link](https://drive.google.com/file/d/1JfJc_MrPVi20NrA6aBR1WLUjBHF8XCvt/view?usp=drive_link)
+
+2. Snapshots:
+> * *Report Summary*
+![Summary_1](https://drive.google.com/uc?export=view&id=17KXS5vg5di8ESAGu2cqywAhsd2LLNtmZ)
+![Summary-2](https://drive.google.com/uc?export=view&id=1R3yo4u3Mv_TI1C0c6Bfge1go1LdySIpf)
+
+> * Total Requests
+![Total_1](https://drive.google.com/uc?export=view&id=1oz3USCQ2x2haoVNQQcsjF15aqdxRAhtl)
+![Total_2](https://drive.google.com/uc?export=view&id=1zAM1MgTditIjCPQ4zKCR43r-mdmnUZnU)
+
+> * Failed Requests
+![Failed](https://drive.google.com/uc?export=view&id=1_sXJlXLexn6buN6153Cx5S1y_nVa6Btb)
+
+
+---
+**[ Attention ] \
+if you face any type of image broken/missing issue, please `refresh` this web page again.**
+
+### **#Happy_Testing**
+---
+
