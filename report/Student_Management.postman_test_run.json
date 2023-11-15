@@ -1,0 +1,412 @@
+{
+	"id": "bfccc287-0196-495f-8b99-8c7fbfaada43",
+	"name": "Student_Management",
+	"timestamp": "2022-11-13T16:54:10.080Z",
+	"collection_id": "23316531-8161a817-f993-410e-80cb-dd52162357bb",
+	"folder_id": 0,
+	"environment_id": "23316531-2f5cca6b-7045-427e-814c-4b6cef1f94f7",
+	"totalPass": 23,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "df37b061-043e-4582-8991-c5d985d62f2e",
+			"name": "Create Student",
+			"url": "https://thetestingworldapi.com/api/studentsDetails",
+			"time": 247,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response time is less than 1000ms": true,
+				"First name validation": true,
+				"Middle name validation": true,
+				"Last name validation": true,
+				"Date validation": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"First name validation": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Middle name validation": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Last name validation": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Date validation": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				247
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response time is less than 1000ms": true,
+					"First name validation": true,
+					"Middle name validation": true,
+					"Last name validation": true,
+					"Date validation": true
+				}
+			]
+		},
+		{
+			"id": "1f50a372-da87-441b-9c22-3936ca9eaab7",
+			"name": "Update Student",
+			"url": "https://thetestingworldapi.com/api/studentsDetails/3911961",
+			"time": 85,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				85
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "6436fa42-7497-437c-b111-0af2acfbd71f",
+			"name": "Students Details",
+			"url": "https://thetestingworldapi.com/api/studentsDetails",
+			"time": 156,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				156
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "8f7885df-fe05-4b11-a5e6-cdc3f6803150",
+			"name": "Get Specific Student",
+			"url": "https://thetestingworldapi.com/api/studentsDetails/3911961",
+			"time": 84,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				84
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "171691b6-2e41-43da-b269-df8e5db1ecee",
+			"name": "Get Student Technical Skills",
+			"url": "https://thetestingworldapi.com/api/technicalskills/",
+			"time": 5818,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				5818
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": false
+				}
+			]
+		},
+		{
+			"id": "61f3891f-d2f2-423e-a3e6-2428251c2f06",
+			"name": "Get Specific Student Technical Skills",
+			"url": "https://thetestingworldapi.com/api/technicalskills/175",
+			"time": 86,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				86
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "0157c8c8-e0a4-4b84-b7a4-3ba03ba3329c",
+			"name": "Add Technical skills",
+			"url": "https://thetestingworldapi.com/api/technicalskills",
+			"time": 82,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				82
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "95bbb3b2-167a-4acd-bec0-09f9e5881375",
+			"name": "Update Technical Skills",
+			"url": "https://thetestingworldapi.com/api/technicalskills/175",
+			"time": 82,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				82
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "7855f728-5045-414d-9f3c-4af15002f0f8",
+			"name": "Delete Technical Skills",
+			"url": "https://thetestingworldapi.com/api/technicalskills/404",
+			"time": 81,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				81
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "cf5835cc-a4d0-4d73-a1ac-ce6afb1f9f01",
+			"name": "Delete Student",
+			"url": "https://thetestingworldapi.com/api/studentsDetails/3911961",
+			"time": 88,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				88
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 6809,
+	"collection": {
+		"requests": [
+			{
+				"id": "df37b061-043e-4582-8991-c5d985d62f2e",
+				"method": "POST"
+			},
+			{
+				"id": "1f50a372-da87-441b-9c22-3936ca9eaab7",
+				"method": "PUT"
+			},
+			{
+				"id": "6436fa42-7497-437c-b111-0af2acfbd71f",
+				"method": "GET"
+			},
+			{
+				"id": "8f7885df-fe05-4b11-a5e6-cdc3f6803150",
+				"method": "GET"
+			},
+			{
+				"id": "171691b6-2e41-43da-b269-df8e5db1ecee",
+				"method": "GET"
+			},
+			{
+				"id": "61f3891f-d2f2-423e-a3e6-2428251c2f06",
+				"method": "GET"
+			},
+			{
+				"id": "0157c8c8-e0a4-4b84-b7a4-3ba03ba3329c",
+				"method": "POST"
+			},
+			{
+				"id": "95bbb3b2-167a-4acd-bec0-09f9e5881375",
+				"method": "PUT"
+			},
+			{
+				"id": "7855f728-5045-414d-9f3c-4af15002f0f8",
+				"method": "DELETE"
+			},
+			{
+				"id": "cf5835cc-a4d0-4d73-a1ac-ce6afb1f9f01",
+				"method": "DELETE"
+			}
+		]
+	}
+}
