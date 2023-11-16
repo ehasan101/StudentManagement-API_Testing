@@ -37,7 +37,7 @@ Those are divided into 5 categories. \
 ![http_status_code](https://drive.google.com/uc?export=view&id=1iwy6FJw2krnOtpOmMhhHocFpXgfguTBM)
 
 
-## What I have done & Testcase Scenarios in this Testing!
+## Working Scenarios & What I have done in this Testing!
 * Operation
   - Create Student
   - Update Student
@@ -51,7 +51,7 @@ Those are divided into 5 categories. \
    - Update Technical Skills
    - Delete Technical Skills
 * Delete Student \
-_[Positive and Negative case both are created]_
+_[Positive and Negative testcase both are created]_
 
 
 <!-- 
