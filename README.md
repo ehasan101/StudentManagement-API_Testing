@@ -4,6 +4,11 @@
 ## API Testing for Student-Management with Postman
 This project is on API testing with Postman for the Student Management web-service. It's evaluating the APIs are working functionality and usability as expected. 
 
+
+## Exploring My Testing Process: A Video Walkthrough!
+> [<img src="https://img.youtube.com/vi/PtrbE-uaC18/hqdefault.jpg" width="560" height="315"/>](https://www.youtube.com/embed/PtrbE-uaC18)
+
+
 ## How to run this project!
 1. Install [Postman](https://www.postman.com/).
 2. Install [Node.js](https://nodejs.org/en/).
@@ -37,23 +42,7 @@ Those are divided into 5 categories.
 ```
 ![http_status_code](https://drive.google.com/uc?export=view&id=1iwy6FJw2krnOtpOmMhhHocFpXgfguTBM)
 
-
-## Working Scenarios & What I have done in this Testing!
-* Operation
-  - Create Student
-  - Update Student
-* Student Details
-  - Students Details
-  - Get Specific Student
-  - Get Student Technical Skills
-  - Get Specific Student Technical Skills
-* Technical Skill
-   - Add Technical skills
-   - Update Technical Skills
-   - Delete Technical Skills
-* Delete Student \
-_[Positive and Negative testcase both are created]_
-
+<br>
 
 <!-- 
 ## Test Cases for this Testing:
