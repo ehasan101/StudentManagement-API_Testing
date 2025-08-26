@@ -6,7 +6,7 @@ This project is on API testing with Postman for the Student Management web-servi
 
 
 ## Exploring My Testing Process: A Video Walkthrough!
-> [<img src="https://img.youtube.com/vi/PtrbE-uaC18/hqdefault.jpg" width="560" height="315"/>](https://www.youtube.com/embed/PtrbE-uaC18)
+> [<img src="https://img.youtube.com/vi/PtrbE-uaC18/hqdefault.jpg" width="700" height="480"/>](https://www.youtube.com/embed/PtrbE-uaC18)
 
 
 ## How to run this project!
