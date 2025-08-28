@@ -1,7 +1,7 @@
 # API_Testing-Project
 <br>
 
-## API Testing for Student-Management with Postman
+## API Testing: Student-Management with Postman
 The Student Management API for managing student records. This Postman project covers the end-to-end testing of its core functionalities, from creating a new student to deleting their records. The tests are built to verify the API's logic, response accuracy, and status codes. It's evaluating the APIs are working functionality and usability as expected. 
 
 
