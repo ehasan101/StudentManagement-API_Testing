@@ -13,11 +13,11 @@ The Student Management API for managing student records. This Postman project co
 1. Install [Postman](https://www.postman.com/).
 2. Install [Node.js](https://nodejs.org/en/).
 3. Download [Project file](https://drive.google.com/drive/folders/16SzJWDvhETXTYWBwDAOiL40Y8HVhyf8E?usp=sharing).
-4. Now Import collection & environment file into Postman: \
+4. Now Import collection & environment file into **Postman**: \
 `file > import > choose the method > press 'import'`
 5. Run Desired API request 
 
-Run on cmd
+**Run on cmd**
 1. Open cmd on project folder or move to project folder `cd Downloads/project_file`
 2. Run the follwing command 
 Install newman `npm install -g newman`
