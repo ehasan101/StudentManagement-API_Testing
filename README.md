@@ -44,10 +44,24 @@ Those are divided into 5 categories.
 
 <br>
 
-<!-- 
-## Test Cases for this Testing:
-`incomplete` 
--->
+## Working Scenarios & What I have done in this Testing!
+This project is designed to test the complete lifecycle of a student record in the database through a series of chained API requests.
+The collection follows a logical sequence to ensure data integrity and proper API functionality:
+* Create a New Student: A POST request is sent with student details to create a new record.
+* Validate Creation: The studentId from the creation response is automatically extracted and saved to an environment variable.
+* Retrieve & Verify: GET and PUT requests use this studentId to fetch, verify, and update the newly created record.
+* Clean Up: A DELETE request uses the same studentId to remove the student record from the database, ensuring the test is self-contained.
+
+**Essential Testing Strategies:**
+* Dynamic ID Chaining: I used Postman's scripting capabilities to capture the studentId from the POST response and automatically pass it to subsequent GET, PUT, and DELETE requests. This makes the test dynamic and reusable.
+* Comprehensive Assertions: For each request, I have written multiple tests in the "Tests" tab to validate:
+* HTTP Status Codes: Ensuring the API returns correct codes (e.g., 201 Created, 200 OK).
+* Response Time: Checking that the API responds within an acceptable performance threshold (e.g., under 1000ms).
+* Response Body Content: Verifying that the data returned in the response body is accurate and matches the data sent in the request (e.g., confirming the first_name is correct after creation and updates).
+
+
+
+
 
 ## Test Report with Newman :
 A Newman report has been generated for the API test
