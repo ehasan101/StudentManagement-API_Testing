@@ -46,7 +46,7 @@ Those are divided into 5 categories.
 
 ## Working Scenarios & What I have done in this Testing!
 This project is designed to test the complete lifecycle of a student record in the database through a series of chained API requests.
-The collection follows a logical sequence to ensure data integrity and proper API functionality:
+The collection follows a logical sequence to ensure data integrity and proper API functionality.
 * Create a New Student: A POST request is sent with student details to create a new record.
 * Validate Creation: The studentId from the creation response is automatically extracted and saved to an environment variable.
 * Retrieve & Verify: GET and PUT requests use this studentId to fetch, verify, and update the newly created record.
